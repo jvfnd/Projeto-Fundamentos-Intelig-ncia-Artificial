@@ -1,7 +1,8 @@
 import streamlit as st
 from google import generativeai as genai
 
-genai.configure(api_key="AIzaSyC0higEx0RP0rl_BNDX0R9mMfpmqHqRsqk")
+api_key = st.secrets('API_KEY')
+genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 def analise_texto(texto):
