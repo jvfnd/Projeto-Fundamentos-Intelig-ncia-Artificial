@@ -24,5 +24,3 @@ O projeto começou com o propósito de traduções de línguas estrangeiras para
 - [Streamlit](https://streamlit.io/)
 - [Google AI - Gemini](https://aistudio.google.com/welcome)
 
----
-
