@@ -32,9 +32,9 @@ O projeto começou com o propósito de traduções de línguas estrangeiras para
 ### 2. Crie um Ambiente Virtual
 python -m venv venv
 
-source venv/bin/activate   #para ativar Linux/Mac
+source venv/bin/activate   /para ativar no Linux/Mac/
 
-venv\Scripts\activate      #para ativar Windows
+venv\Scripts\activate      /para ativar no Windows/
 
 ### 3. Instale Dependências
 pip install -r requirements.txt
