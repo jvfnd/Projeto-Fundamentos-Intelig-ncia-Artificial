@@ -9,7 +9,7 @@ st.title("Análise de Texto com IA")
 task = st.selectbox(
     "Selecione a tarefa de IA",
     ["Resumo", "Tradução para Português", "Análise de Sentimento", "Correção Gramatical", 
-     "Buscar Fontes", "Classificação de Texto"])
+     "Buscar Fontes", "Classificação de Texto", "Resenha Crítica"])
 
 def analise_texto(texto):
     if task == "Resumo":
@@ -24,6 +24,8 @@ def analise_texto(texto):
         prompt = f"Busque fontes confiáveis para o seguinte texto: {texto}"
     elif task == "Classificação de Texto":
         prompt = f"Classifique o seguinte texto em categorias: {texto}"    
+    elif task == "Resenha Crítica"
+        prompt = f"Escreva uma resenha crítica do seguinte texto, destacando pontos fortes, fracos e possíveis interpretações: {texto}"
     else:
         st.error("Tarefa não reconhecida.")
         return
