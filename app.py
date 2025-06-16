@@ -24,7 +24,7 @@ def analise_texto(texto):
         prompt = f"Busque fontes confiáveis para o seguinte texto: {texto}"
     elif task == "Classificação de Texto":
         prompt = f"Classifique o seguinte texto em categorias: {texto}"    
-    elif task == "Resenha Crítica"
+    elif task == "Resenha Crítica":
         prompt = f"Escreva uma resenha crítica do seguinte texto, destacando pontos fortes, fracos e possíveis interpretações: {texto}"
     else:
         st.error("Tarefa não reconhecida.")
