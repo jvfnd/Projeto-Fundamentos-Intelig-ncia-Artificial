@@ -31,6 +31,7 @@ O projeto começou com o propósito de traduções de línguas estrangeiras para
 
 ### 2. Crie um Ambiente Virtual
 python -m venv venv
+
 source venv/bin/activate   #para ativar Linux/Mac
 
 venv\Scripts\activate      #para ativar Windows
