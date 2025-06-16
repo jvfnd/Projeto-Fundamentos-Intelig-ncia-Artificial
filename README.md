@@ -24,3 +24,23 @@ O projeto começou com o propósito de traduções de línguas estrangeiras para
 - [Streamlit](https://streamlit.io/)
 - [Google AI - Gemini](https://aistudio.google.com/welcome)
 
+---
+## 📦Para Executar Localmente
+
+### 1. Clone o Repositório
+
+### 2. Crie um Ambiente Virtual
+python -m venv venv
+source venv/bin/activate   #para ativar Linux/Mac
+venv\Scripts\activate      #para ativar Windows
+
+### 3. Instale Dependências
+pip install -r requirements.txt
+
+### 4. Configure a chave da API do Google Gemini em
+[Google Ai Studio](https://aistudio.google.com/welcome)
+
+### 5. Execute a aplicação
+streamlit run app.py
+
+ 
